@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+@keyframes load {
+  from {
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.loading svg {
+  margin-top: 40vh;
+  width: 100%;
+  font-size: 75px;
+  animation: load 5s linear 0s infinite normal;
+  transition: all 300ms ease;
+}
+.loading p {
+   width: 100%;
+   text-align: center;
+  font-family: arial;
+  transition: all 300ms ease;
+}
+
+

@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1000px) {
+  .infocont {
+    display: flex;
+    margin: 100px auto;
+    width: 90%;
+    padding: 5px;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .infocont {
+    display: flex;
+    margin: 100px auto;
+    width: 70%;
+    padding: 5px;
+  }
+}
+
+.imgcontent img {
+  width: 250px;
+}
+.infotext {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.infotext h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #383838;
+}
+.icon {
+  color: #5f5fe7;
+}
+.infote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.infotexttitle {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.infodesc h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #383838;
+}
+.infodesc p {
+  margin-top: 5px;
+  height: 120px;
+  overflow: hidden;
+  overflow-y: scroll;
+}

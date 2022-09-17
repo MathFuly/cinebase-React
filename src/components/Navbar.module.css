@@ -1,0 +1,50 @@
+.navmain {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #5f5fe7;
+  min-height: 50px;
+  max-height: 50px;
+}
+
+.navmain h2 {
+  font-family: Arial;
+  font-weight: bold;
+}
+.navmain h2 a:hover {
+  color: #fdf503;
+}
+.navmain h2 a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navmain input {
+  width: 200px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.navmain form {
+  display: flex;
+  align-items: center;
+}
+
+.navmain form button {
+  background-color: transparent;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  display: flex;
+  margin-left: 15px;
+  color: white;
+  cursor: pointer;
+}

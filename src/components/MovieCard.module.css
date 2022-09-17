@@ -1,0 +1,77 @@
+.moviecardin {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 170px;
+  margin: 10px;
+  transition: all 300ms ease-in;
+  font-family: arial;
+}
+.cardimg {
+  gap: 170px;
+  overflow: hidden;
+  width: 170px;
+  height: 257px;
+  padding: 0;
+  margin: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.cardimg img {
+  width: 170px;
+  height: 257px;
+  object-fit: cover;
+  margin: 0;
+}
+.cardinfo {
+  display: none;
+  width: 0;
+  color: white;
+  height: 100%;
+  padding: 0;
+  transition: all 300ms ease-in-out;
+  background-color: #5f5fe7;
+}
+
+.moviecardin:hover {
+  display: flex;
+}
+.moviecardin:hover .cardimg {
+  display: none;
+}
+
+.moviecardin:hover .cardinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 100%;
+  transition: all 100ms ease-in-out;
+}
+.cardinfo h2 {
+    font-size: 20px;
+      margin: 10px auto;
+}
+.cardinfo p,a {
+  font-size: 15px;
+  margin: 10px auto;
+  transition: all 50ms ease-in-out;
+}
+.moviecardin:hover .cardinfo h2,p,a {
+  display: block;
+  opacity: 100%;
+  transition: all 300ms ease-in-out;
+}
+.cardbutton {
+    background-color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.cardbutton:hover {
+    background-color: rgb(53, 53, 53);
+}

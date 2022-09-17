@@ -1,0 +1,13 @@
+.container {
+  margin: 50px auto;
+  text-align: center;
+  transition: all 300ms ease-in;
+  width: 90%;
+}
+.moviecontainer {
+  transition: all 300ms ease-in;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
